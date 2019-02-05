@@ -1,0 +1,252 @@
+== Info:   Trying 192.168.1.103...
+== Info: TCP_NODELAY set
+== Info: Connected to inha.uz (192.168.1.103) port 443 (#0)
+== Info: ALPN, offering h2
+== Info: ALPN, offering http/1.1
+== Info: Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+== Info: successfully set certificate verify locations:
+== Info:   CAfile: C:\Program Files\curl-7.63.0-win64-mingw\bin\curl-ca-bundle.crt
+  CApath: none
+== Info: TLSv1.2 (OUT), TLS header, Certificate Status (22):
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 512 bytes (0x200)
+0000: ................}.|..]..E......f..........0.,.(.$.............k.
+0040: j.i.h.9.8.7.6.........2...*.&.......=.5.../.+.'.#.............g.
+0080: @.?.>.3.2.1.0.........E.D.C.B.1.-.).%.......<./...A.............
+00c0: ............3.........inha.uz...................................
+0100: ........ .....................................3t.........h2.http
+0140: /1.1............................................................
+0180: ................................................................
+01c0: ................................................................
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....o
+== Info: TLSv1.2 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 111 bytes (0x6f)
+0000: ...k..\YU....V.68.;W.*.S..!..<4....a~. ....Sr....x.[......S.6Dmo
+0040: .o.o..y.0..#......................3t...http/1.1
+== Info: NPN, negotiated HTTP1.1
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....U
+== Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 4949 bytes (0x1355)
+0000: ...Q..N...0...0............e.Y....oC.....0...*.H........0..1.0..
+0040: .U....GB1.0...U....Greater Manchester1.0...U....Salford1.0...U..
+0080: ..COMODO CA Limited1806..U.../COMODO RSA Extended Validation Sec
+00c0: ure Server CA0...180223000000Z..200223235959Z0..?1.0...U....0089
+0100: 16-041.0...+.....7<.....UZ1.0...+.....7<.....Tashkent1.0...+....
+0140: .7<.....Tashkent1.0...U....Private Organization1.0...U....UZ1.0.
+0180: ..U....1000411.0...U....Tashkent1.0...U....Tashkent1.0...U....Zi
+01c0: yoliar st., 91'0%..U....INHA University in Tashkent SE1.0...U...
+0200: .SSL1.0...U....POSITIVE EV SSL1.0...U....inha.uz0.."0...*.H.....
+0240: ........0...........>......vnP.....W..L.*...U.....wA....j.2=.s.V
+0280: ......C..a..HN.~.R*.EQ..b..`.V.(..3.N.7..r..K=LF=..8.k".p....".,
+02c0: ..........-...#.:&q..(cS....\w... p.x-.....w.............?}.T..:
+0300: <M<..>.K........;.l.g........VZ..#...|..'.e7.......;...H.\...v.
+0340: 3...q.`..................W0..S0...U.#..0...9...(...t........~.i0
+0380: ...U.......[.@].;.Hb.....!...P0...U...........0...U.......0.0...
+03c0: U.%..0...+.........+.......0O..U. .H0F0;..+.....1.....0+0)..+...
+0400: ......https://secure.comodo.com/CPS0...g....0V..U...O0M0K.I.G.Eh
+0440: ttp://crl.comodoca.com/COMODORSAExtendedValidationSecureServerCA
+0480: .crl0....+........{0y0Q..+.....0..Ehttp://crt.comodoca.com/COMOD
+04c0: ORSAExtendedValidationSecureServerCA.crt0$..+.....0...http://ocs
+0500: p.comodoca.com0...U....0...inha.uz..www.inha.uz0..~..+.....y....
+0540: ..n...j.h.v.......X......gp.<5.......w.........a.=.......G0E. ?.
+0580: .Sb.....c..._+g...J`.......r.?.!......A..;.3.b.#$.......'.*<.T.
+05c0: 9.v.V.../.......D.>.Fv....\....U.......a.=.z.....G0E. ..... ...w
+0600: .w.f..v..C..|.9.o....#.!......O*.@..dH.{}..cR-......w-.-.v..K..
+0640: u.`..Bi....f..~_.r....{.z......a.=.......G0E. 7..bQ.e..A.I%.K..r
+0680: soFx.........7.!...3..Gg<...^gh).....O..Cu^.6.d..0...*.H........
+06c0: .....ds%.I.t.].....6.Z_O-M./4./......$x..G.K..1t...k...q.&....t.
+0700: i..9-..[Yrz4Hr_..P.g1.....f.&..Z...u%u.0j...Lp...R..e.`.,'7..S..
+0740: .3...[.]...r]R.....H?..< +K.&..5..y ..........c..V.....L.].....^
+0780: +..8p...."...g..s.6...........KvJ.#...q....{....i|..bl...z].\..
+07c0: OYl"....0...0............C.....5....j..0...*.H........0..1.0...U
+0800: ....GB1.0...U....Greater Manchester1.0...U....Salford1.0...U....
+0840: COMODO CA Limited1+0)..U..."COMODO RSA Certification Authority0.
+0880: ..120212000000Z..270211235959Z0..1.0...U....GB1.0...U....Greater
+08c0:  Manchester1.0...U....Salford1.0...U....COMODO CA Limited1806..U
+0900: .../COMODO RSA Extended Validation Secure Server CA0.."0...*.H..
+0940: ...........0.........V.T....I{.[\.....+bL+..(.......)....8@...n.
+0980: .....w,.u>{c.a.nO;..Ik...../u.(/.Vg............V[..j:?.....`...
+09c0: ..f0_.....j........9.|...*.{...v.m.r90..WU..X..|m..I....<..Jv.!\
+0a00: .s@#.t..X.....6........b...E.Q....#u.......$...'..z.:ac`..-]...;
+0a40: ...:Gsv..,......0...........i0..e0...U.#..0.....~.=...<....8...2
+0a80: 2.0...U......9...(...t........~.i0...U...........0...U.......0..
+0ac0: .....0>..U. .70503..U. .0+0)..+.........https://secure.comodo.co
+0b00: m/CPS0L..U...E0C0A.?.=.;http://crl.comodoca.com/COMODORSACertifi
+0b40: cationAuthority.crl0q..+........e0c0;..+.....0../http://crt.como
+0b80: doca.com/COMODORSAAddTrustCA.crt0$..+.....0...http://ocsp.comodo
+0bc0: ca.com0...*.H.............DB.AQ+H.]..y^..JR.{A,..<.r...X..%...Xe
+0c00: g...W...^..K...-.."...y..+...=$..]_..G..f%>.G..".P"...JY........
+0c40: ..V...S..v..[iKw..O.....P.<.D..W..(S.S....z@.0?.l......".."q.*.V
+0c80: |........RL.d+.i*..Pn>...z ...e...I.2=.(~I..J.......\.ab...`y%..
+0cc0: es.8..&:...}.1".t...\.A.(.G1.}IE....E...........~~.5P4... ......
+0d00: .d../Y.^.6a.$..33...l.ah...V...^b...t.L/1.....K...T..;.\.......
+0d40: .`.!1..d..IX.mZ...m....X...-X.t.j..a....i.:.1Y...|'#.....*....N
+0d80: .a.Rsm....*f.vM1.V..S.......:...H..J.v./.....m4$..)...+....s....
+0dc0: .:GV.q.'..%......t..7.......x0..t0..\.......'f.V.I....p...."0...
+0e00: *.H........0o1.0...U....SE1.0...U....AddTrust AB1&0$..U....AddTr
+0e40: ust External TTP Network1"0 ..U....AddTrust External CA Root0...
+0e80: 000530104838Z..200530104838Z0..1.0...U....GB1.0...U....Greater M
+0ec0: anchester1.0...U....Salford1.0...U....COMODO CA Limited1+0)..U..
+0f00: ."COMODO RSA Certification Authority0.."0...*.H.............0...
+0f40: .......T...V...$...Dgt.+7.}#p.q.S...*..K.V..pr.a.K...=...a....
+0f80: ...>..>\...4z..k......zv.q.......l......~..../O...gCr......k,.
+0fc0: ......~..n.....$.Ckb.U....l........li..xH0E....<E`.2.Q'.g....k.F
+1000: .. ...e.H...N...F7.....HCgNr*.\.L.(.\"{......Q...FNm>.....|3WA<.
+1040: Q...\.,c..W.?..]...E...Z$...V=.o..IX........7.....:..CB.........
+1080: ..`..(V......q....=...H.<...."L....V;....[..."R...i..Le...-pt...
+10c0: g.)iR....PjUF...(ap....,!.G.(..Ev...'.....P.k.L.q0........@...B
+1100: ..3:.\.A..c..qk+....1\:jG..yY. ...j..r.WJ.K.....LA...=^(.....Q.
+1140: .G..S........0..0...U.#..0......z4.&...&T....$.T.0...U........~.
+1180: =...<....8...22.0...U...........0...U.......0....0...U. ..0.0...
+11c0: U. .0D..U...=0;09.7.5.3http://crl.usertrust.com/AddTrustExternal
+1200: CARoot.crl05..+........)0'0%..+.....0...http://ocsp.usertrust.co
+1240: m0...*.H.............d..._......)W..Z...>.v.n.Rp..<.M.tj...%...*
+1280: ]L....m.T.u..'.].y7@.w.....;.....4.~+.y..WE..(....P.....Wi}..R.s
+12c0: ......nf.....-...Y.L...qL|G.;.....l.>\.........HM.....s...{#...
+1300: .MU.zaE..h.^@k#.yz...k..oF.{.=K....YZ.A$....`XG..nF...._......@.
+1340: ..9.............;o.8o
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....M
+== Info: TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+<= Recv SSL data, 333 bytes (0x14d)
+0000: ...I...A.j.k....I..r..].s!!........j.O....lhp-.....&U3%..S...fo
+0040: Tu..d.8...........>9N..iU:3...........^<.c...i>.NvS.....<..`.^'-
+0080: 7}v.>....i.n..........s%.s~K..#..6..d"....h......mX..\...+.....Z
+00c0: .%\Z...jKU....._.9p...4R.E;..X.G.H.............).-....$..A....h.
+0100: LC....l.,r.e..uq7,.P.4.cy..E.B.l...3n..(.(....lT.'."......r@@..H
+0140: .P........ ..
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (IN), TLS handshake, Server finished (14):
+<= Recv SSL data, 4 bytes (0x4)
+0000: ....
+=> Send SSL data, 5 bytes (0x5)
+0000: ....F
+== Info: TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+=> Send SSL data, 70 bytes (0x46)
+0000: ...BA...=..%...>....9......;.f{.Zd..K.......B....3..*.q..%..;..i
+0040: &..r..
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: ....<
+== Info: TLSv1.2 (OUT), TLS handshake, Next protocol (67):
+=> Send SSL data, 36 bytes (0x24)
+0000: C.. .http/1.1.......................
+=> Send SSL data, 5 bytes (0x5)
+0000: ....(
+== Info: TLSv1.2 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 16 bytes (0x10)
+0000: .........~..1F.C
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (IN), TLS change cipher, Client hello (1):
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....(
+== Info: TLSv1.2 (IN), TLS handshake, Finished (20):
+<= Recv SSL data, 16 bytes (0x10)
+0000: ........c....k..
+== Info: SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+== Info: ALPN, server did not agree to a protocol
+== Info: Server certificate:
+== Info:  subject: serialNumber=008916-04; jurisdictionC=UZ; jurisdictionST=Tashkent; jurisdictionL=Tashkent; businessCategory=Private Organization; C=UZ; postalCode=100041; ST=Tashkent; L=Tashkent; street=Ziyoliar st., 9; O=INHA University in Tashkent SE; OU=SSL; OU=POSITIVE EV SSL; CN=inha.uz
+== Info:  start date: Feb 23 00:00:00 2018 GMT
+== Info:  expire date: Feb 23 23:59:59 2020 GMT
+== Info:  subjectAltName: host "inha.uz" matched cert's "inha.uz"
+== Info:  issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Extended Validation Secure Server CA
+== Info:  SSL certificate verify ok.
+=> Send SSL data, 5 bytes (0x5)
+0000: ....h
+=> Send header, 80 bytes (0x50)
+0000: GET /en/ HTTP/1.1
+0013: Host: www.afisha.uz
+0028: Accept: */*
+0035: User-Agent: Mozilla/5.0
+004e: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv header, 24 bytes (0x18)
+0000: HTTP/1.1 404 Not Found
+<= Recv header, 15 bytes (0xf)
+0000: Server: nginx
+<= Recv header, 37 bytes (0x25)
+0000: Date: Tue, 05 Feb 2019 09:21:44 GMT
+<= Recv header, 25 bytes (0x19)
+0000: Content-Type: text/html
+<= Recv header, 22 bytes (0x16)
+0000: Content-Length: 3650
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 22 bytes (0x16)
+0000: ETag: "58173aee-e42"
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 3650 bytes (0xe42)
+0000: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3
+0040: .org/TR/xhtml11/DTD/xhtml11.dtd">..<html xmlns="http://www.w3.or
+0080: g/1999/xhtml" xml:lang="en">.    <head>.        <title>The page 
+00c0: is not found</title>.        <meta http-equiv="Content-Type" con
+0100: tent="text/html; charset=UTF-8" />.        <style type="text/css
+0140: ">.            /*<![CDATA[*/.            body {.                
+0180: background-color: #fff;.                color: #000;.           
+01c0:      font-size: 0.9em;.                font-family: sans-serif,h
+0200: elvetica;.                margin: 0;.                padding: 0;
+0240: .            }.            :link {.                color: #c00;.
+0280:             }.            :visited {.                color: #c00
+02c0: ;.            }.            a:hover {.                color: #f5
+0300: 0;.            }.            h1 {.                text-align: ce
+0340: nter;.                margin: 0;.                padding: 0.6em 
+0380: 2em 0.4em;.                background-color: #294172;.          
+03c0:       color: #fff;.                font-weight: normal;.        
+0400:         font-size: 1.75em;.                border-bottom: 2px so
+0440: lid #000;.            }.            h1 strong {.                
+0480: font-weight: bold;.                font-size: 1.5em;.           
+04c0:  }.            h2 {.                text-align: center;.        
+0500:         background-color: #3C6EB4;.                font-size: 1.
+0540: 1em;.                font-weight: bold;.                color: #
+0580: fff;.                margin: 0;.                padding: 0.5em;.
+05c0:                 border-bottom: 2px solid #294172;.            }.
+0600:             h3 {.                text-align: center;.           
+0640:      background-color: #ff0000;.                padding: 0.5em;.
+0680:                 color: #fff;.            }.            hr {.    
+06c0:             display: none;.            }.            .content {.
+0700:                 padding: 1em 5em;.            }.            .ale
+0740: rt {.                border: 2px solid #000;.            }..    
+0780:         img {.                border: 2px solid #fff;.          
+07c0:       padding: 2px;.                margin: 2px;.            }. 
+0800:            a:hover img {.                border: 2px solid #2941
+0840: 72;.            }.            .logos {.                margin: 1
+0880: em;.                text-align: center;.            }.          
+08c0:   /*]]>*/.        </style>.    </head>..    <body>.        <h1><
+0900: strong>nginx error!</strong></h1>..        <div class="content">
+0940: ..            <h3>The page you are looking for is not found.</h3
+0980: >..            <div class="alert">.                <h2>Website A
+09c0: dministrator</h2>.                <div class="content">.        
+0a00:             <p>Something has triggered missing webpage on your. 
+0a40:                    website. This is the default 404 error page f
+0a80: or.                    <strong>nginx</strong> that is distribute
+0ac0: d with.                    Fedora.  It is located.              
+0b00:       <tt>/usr/share/nginx/html/404.html</tt></p>..             
+0b40:        <p>You should customize this error page for your own.    
+0b80:                 site or edit the <tt>error_page</tt> directive i
+0bc0: n.                    the <strong>nginx</strong> configuration f
+0c00: ile.                    <tt>/etc/nginx/nginx.conf</tt>.</p>..   
+0c40:              </div>.            </div>..            <div class="
+0c80: logos">.                <a href="http://nginx.net/"><img.       
+0cc0:              src="/nginx-logo.png".                    alt="[ Po
+0d00: wered by nginx ]".                    width="121" height="32" />
+0d40: </a>..                <a href="http://fedoraproject.org/"><img .
+0d80:                     src="/poweredby.png".                    alt
+0dc0: ="[ Powered by Fedora ]" .                    width="88" height=
+0e00: "31" /></a>.            </div>.        </div>.    </body>.</html
+0e40: >.
+== Info: Connection #0 to host inha.uz left intact

@@ -1,0 +1,67 @@
+== Info:   Trying 54.152.127.232...
+== Info: TCP_NODELAY set
+== Info: Connected to httpbin.org (54.152.127.232) port 80 (#0)
+=> Send header, 187 bytes (0xbb)
+0000: POST /post HTTP/1.1
+0015: Host: httpbin.org
+0028: User-Agent: curl/7.60.0
+0041: Accept: */*
+004e: Content-Length: 513
+0063: Content-Type: multipart/form-data; boundary=--------------------
+00a3: ----ef501fa368d77432
+00b9: 
+=> Send data, 513 bytes (0x201)
+0000: --------------------------ef501fa368d77432
+002c: Content-Disposition: form-data; name="file"; filename="test.c"
+006c: Content-Type: application/octet-stream
+0094: 
+0096: #include <stdio.h>
+00aa: int main()
+00b6: {
+00b9:     char c;
+00c6:     printf("Enter a character: ");
+00ea: 
+00ec:     // Reads character input from the user
+0118:     scanf("%c", &c);  
+0130:     
+0136:     // %d displays the integer value of a character
+016b:     // %c displays the actual character
+0194:     printf("ASCII value of %c = %d", c, c);
+01c1:     return 0;
+01d0: }
+01d3: --------------------------ef501fa368d77432--
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 25 bytes (0x19)
+0000: Server: gunicorn/19.9.0
+<= Recv header, 37 bytes (0x25)
+0000: Date: Tue, 05 Feb 2019 09:44:06 GMT
+<= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+<= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+<= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+<= Recv header, 16 bytes (0x10)
+0000: Via: 1.1 vegur
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 769
+<= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 769 bytes (0x301)
+0000: {.  "args": {}, .  "data": "", .  "files": {.    "file": "#inclu
+0040: de <stdio.h>\r\nint main()\r\n{\r\n    char c;\r\n    printf(\"E
+0080: nter a character: \");\r\n\r\n    // Reads character input from 
+00c0: the user\r\n    scanf(\"%c\", &c);  \r\n    \r\n    // %d displa
+0100: ys the integer value of a character\r\n    // %c displays the ac
+0140: tual character\r\n    printf(\"ASCII value of %c = %d\", c, c);\
+0180: r\n    return 0;\r\n}".  }, .  "form": {}, .  "headers": {.    "
+01c0: Accept": "*/*", .    "Connection": "close", .    "Content-Length
+0200: ": "513", .    "Content-Type": "multipart/form-data; boundary=--
+0240: ----------------------ef501fa368d77432", .    "Host": "httpbin.o
+0280: rg", .    "User-Agent": "curl/7.60.0".  }, .  "json": null, .  "
+02c0: origin": "87.237.236.162", .  "url": "http://httpbin.org/post".}
+0300: .
+== Info: Connection #0 to host httpbin.org left intact

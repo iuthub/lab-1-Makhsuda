@@ -1,0 +1,43 @@
+== Info:   Trying 52.73.9.93...
+== Info: TCP_NODELAY set
+== Info: Connected to httpbin.org (52.73.9.93) port 80 (#0)
+=> Send header, 149 bytes (0x95)
+0000: POST /post HTTP/1.1
+0015: Host: httpbin.org
+0028: User-Agent: curl/7.60.0
+0041: Accept: */*
+004e: Content-Length: 48
+0062: Content-Type: application/x-www-form-urlencoded
+0093: 
+=> Send data, 48 bytes (0x30)
+0000: email=maqsuda99%40gmail.com&name=Boolean%20World
+== Info: upload completely sent off: 48 out of 48 bytes
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 25 bytes (0x19)
+0000: Server: gunicorn/19.9.0
+<= Recv header, 37 bytes (0x25)
+0000: Date: Tue, 05 Feb 2019 09:42:25 GMT
+<= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+<= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+<= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+<= Recv header, 16 bytes (0x10)
+0000: Via: 1.1 vegur
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 434
+<= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 434 bytes (0x1b2)
+0000: {.  "args": {}, .  "data": "", .  "files": {}, .  "form": {.    
+0040: "email": "maqsuda99@gmail.com", .    "name": "Boolean World".  }
+0080: , .  "headers": {.    "Accept": "*/*", .    "Connection": "close
+00c0: ", .    "Content-Length": "48", .    "Content-Type": "applicatio
+0100: n/x-www-form-urlencoded", .    "Host": "httpbin.org", .    "User
+0140: -Agent": "curl/7.60.0".  }, .  "json": null, .  "origin": "87.23
+0180: 7.236.162", .  "url": "http://httpbin.org/post".}.
+== Info: Connection #0 to host httpbin.org left intact

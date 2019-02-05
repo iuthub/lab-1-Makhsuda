@@ -1,0 +1,4 @@
+a) Using Vi/Vim Editor, create the following file in your user directory by entering
+ the command at the linux shell prompt : $vi sum_avgl.c
+ b) Compile the program using gcc ($gcc -o sum_avgl sum_avgl.c) and execute
+ the executable program($./sum_avgl). 

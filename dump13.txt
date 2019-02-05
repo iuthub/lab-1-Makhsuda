@@ -1,0 +1,43 @@
+== Info:   Trying 52.86.186.182...
+== Info: TCP_NODELAY set
+== Info: Connected to httpbin.org (52.86.186.182) port 80 (#0)
+=> Send header, 149 bytes (0x95)
+0000: POST /post HTTP/1.1
+0015: Host: httpbin.org
+0028: User-Agent: curl/7.60.0
+0041: Accept: */*
+004e: Content-Length: 27
+0062: Content-Type: application/x-www-form-urlencoded
+0093: 
+=> Send data, 27 bytes (0x1b)
+0000: email=maqsuda99%40gmail.com
+== Info: upload completely sent off: 27 out of 27 bytes
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 25 bytes (0x19)
+0000: Server: gunicorn/19.9.0
+<= Recv header, 37 bytes (0x25)
+0000: Date: Tue, 05 Feb 2019 09:42:16 GMT
+<= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+<= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+<= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+<= Recv header, 16 bytes (0x10)
+0000: Via: 1.1 vegur
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 404
+<= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 404 bytes (0x194)
+0000: {.  "args": {}, .  "data": "", .  "files": {}, .  "form": {.    
+0040: "email": "maqsuda99@gmail.com".  }, .  "headers": {.    "Accept"
+0080: : "*/*", .    "Connection": "close", .    "Content-Length": "27"
+00c0: , .    "Content-Type": "application/x-www-form-urlencoded", .   
+0100:  "Host": "httpbin.org", .    "User-Agent": "curl/7.60.0".  }, . 
+0140:  "json": null, .  "origin": "87.237.236.162", .  "url": "http://
+0180: httpbin.org/post".}.
+== Info: Connection #0 to host httpbin.org left intact
